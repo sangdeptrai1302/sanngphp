@@ -1,0 +1,14 @@
+{
+    "name": "levansang/ban hang adidas",
+    "type": "project",
+    "description": "xay dung web site ban thoi trang adidas",
+    "autoload": {
+        "psr-4": {"App\\":"app/"}
+    },
+    "require": {
+        "illuminate/events": "^10.1",
+        "illuminate/database": "^10.1",
+        "cakephp/utility": "^4.4",
+        "cakephp/cakephp": "^2.10"
+    }
+}

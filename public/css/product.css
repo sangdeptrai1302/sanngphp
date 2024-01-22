@@ -1,0 +1,55 @@
+.product-item {
+    position: relative;
+    border: 1px solid #ddd; /* Màu và độ rộng của border */
+    border-radius: 5px; /* Bo tròn góc của border */
+}
+
+.product-item .product-name {
+    padding: 10px;
+    font-size: 12px; /* Giảm kích thước của font chữ */
+}
+.product-item .product-price {
+    position: absolute;
+    bottom: 50px; /* Thay đổi khoảng cách lên trên */
+    left: 0;
+    width: 100%;
+    background-color: rgba(118, 204, 235, 0.7);
+    color: #fff;
+    padding: 5px;
+    box-sizing: border-box;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+
+}
+
+.product-item:hover .product-price {
+    opacity: 1;
+}
+
+
+.product-item img {
+    width: 100%;
+    border-radius: 5px 5px 0 0; /* Bo tròn góc phía trên của hình ảnh */
+}
+
+.product-item .product-name {
+    padding: 10px;
+}
+
+/* Thêm border cho hình ảnh trong Carousel */
+.carousel-item img {
+    border: 2px solid #ddd; /* Màu và độ dày của border có thể được điều chỉnh */
+    border-radius: 5px; /* Độ cong góc của border */
+}
+
+/* Tăng kích thước và padding cho hình ảnh */
+.carousel-item img {
+    width: 100%; /* Đảm bảo hình ảnh nằm đầy đủ trong kích thước của parent */
+    padding: 10px; /* Khoảng cách giữa border và nội dung hình ảnh */
+}
+.text-category a {
+    text-decoration: none;
+}
+.text-logo a{
+    text-decoration: none;
+}

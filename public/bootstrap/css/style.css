@@ -1,0 +1,88 @@
+.timkiem:hover
+{
+    font-size: 110%;
+}
+p:hover
+{
+    color: gray;
+}
+.mainfooter
+{
+    background-color:black;
+
+}
+.mainfooter a
+{
+    color:white;
+}
+.mainfooter ul {
+    list-style:none;
+    
+}
+.mainfooter ul li a
+{
+    color:white;
+    text-decoration: none;
+
+}
+.tacgia a
+{
+    text-decoration: none;
+    color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+.navbar
+{
+    background-color:lightgray   ;
+}
+.mainmenu a
+{
+   color:black;
+}
+.mainmenu a:hover
+
+{
+    font-size: 110%;
+}
+.product-Item.product-name a
+{
+    text-decoration: none;
+}
+.product-detail 
+{
+    /* with:40px;
+    height:40px;
+    line-height:40px;
+    text-align:center;
+    border-radius:50px;
+    background-color:green;
+    position:absolute;
+    right:-20px; */
+    coloor:green;
+}
+.product-name a
+{
+    text-decoration: none;
+    color:black;
+    font-size: 25px;
+}
+.scrollable
+{
+    height:600px;
+    width: 450px;
+    border: 1px solid black;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.post-lastnew a
+{
+    text-decoration: none;
+
+    font-size:20px;
+    color:black;
+}
+.fb
+{
+    height:70px;
+    width:70px;
+}
